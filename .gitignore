@@ -1,0 +1,61 @@
+# 1. 编译输出文件（绝对不上传）
+Debug/
+Release/
+build/
+Objects/
+Listings/
+output/
+*.o
+*.d
+*.hex
+*.bin
+*.elf
+*.axf
+*.map
+*.lst
+*.crf
+*.dep
+
+# 2. Keil 工程垃圾文件
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvguix
+*.JLinkLog
+*.JLinkSettings
+History/
+
+# 3. STM32CubeMX / STM32IDE 自动生成垃圾
+*.ioc.bak
+*.launch
+*.user
+MX_Device/
+RTE/
+Temp/
+Template/
+
+# 4. IDE / 系统缓存
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# 5. 库文件冗余过滤（双库都适用）
+Utilities/
+Example/
+Examples/
+Demo/
+Doc/
+Docs/
+Documentation/
+
+# 6. FreeRTOS 只保留核心，剔除无用
+FreeRTOS/Demo/
+FreeRTOS/Documentation/
+FreeRTOS-Plus/
+FreeRTOS-Labs/
