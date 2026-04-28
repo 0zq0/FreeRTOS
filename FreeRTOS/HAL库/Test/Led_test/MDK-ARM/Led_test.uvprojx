@@ -509,6 +509,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\Hardware\led.c</FilePath>
             </File>
+            <File>
+              <FileName>FreeRTOS_demo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\Hardware\FreeRTOS_demo.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -518,6 +523,11 @@
               <FileName>led.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Drivers\include\led.h</FilePath>
+            </File>
+            <File>
+              <FileName>FreeRTOS_Demo.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\include\FreeRTOS_Demo.h</FilePath>
             </File>
           </Files>
         </Group>
